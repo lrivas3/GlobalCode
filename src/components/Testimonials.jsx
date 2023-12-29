@@ -7,24 +7,24 @@ import testimonial3 from "../assets/images/testimonial3.png";
 
 const testimonialsData = [
   {
-    customerName: "John Watkins",
-    customerTitle: "Founder of Dashflow",
+    customerName: "Sarah Thompson",
+    customerTitle: "CEO of WebSavvy Co.",
     content:
-      "The powerful analytic tools have helped us streamline our processes and make data-driven decisions that positively impact our efficiency. Tailcast has been a game-changer for our business. The platform is easy to use, and the insights we've gained have driven significant improvements.",
+        "Working with Global Code has been an incredible journey. Their team's expertise and dedication to our project were unmatched. They not only delivered a stunning website but also ensured it aligned perfectly with our brand vision. Their commitment to excellence truly sets them apart.",
     image: testimonial1,
   },
   {
-    customerName: "John Watkins",
-    customerTitle: "Founder of Dashflow",
+    customerName: "Michael Rodriguez",
+    customerTitle: "CTO of TechSphere Inc.",
     content:
-      "The powerful analytic tools have helped us streamline our processes and make data-driven decisions that positively impact our efficiency. Tailcast has been a game-changer for our business. The platform is easy to use, and the insights we've gained have driven significant improvements.",
+        "I'm amazed by the level of professionalism and innovation Global Code brought to our web development project. They transformed our ideas into a functional and visually appealing website that exceeded our expectations. Their attention to detail and problem-solving skills are outstanding.",
     image: testimonial2,
   },
   {
-    customerName: "John Watkins",
-    customerTitle: "Founder of Dashflow",
+    customerName: "Emily Parker",
+    customerTitle: "Marketing Manager at InnovateNow",
     content:
-      "The powerful analytic tools have helped us streamline our processes and make data-driven decisions that positively impact our efficiency. Tailcast has been a game-changer for our business. The platform is easy to use, and the insights we've gained have driven significant improvements.",
+        "Global Code took our online presence to the next level! Their team's creativity and technical proficiency were evident throughout the development process. They were responsive to our needs, delivering a website that reflects our brand identity and engages our audience effectively.",
     image: testimonial3,
   },
 ];
@@ -43,7 +43,7 @@ export const Testimonials = () => (
           Testimonials
         </div>
         <div className="custom-block-big-title text-center mb-16 px-8 sm:px-24 md:px-48">
-          People like you love Tailcast
+          People like you love Global Code
         </div>
 
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-5 xl:gap-10 px-6 xl:px-0 items-center">
@@ -59,7 +59,7 @@ export const Testimonials = () => (
                 "{testimonial.content}"
               </div>
               <div className="flex mt-4 mb-2 xl:mt-8 xl:mb-4">
-                <img src={testimonial.image} alt="" width="45px" />
+                <img src={testimonial.image} alt="" width="45px"/>
                 <div className="flex flex-col ml-4">
                   <div className="custom-content-text-white font-medium">
                     {testimonial.customerName}

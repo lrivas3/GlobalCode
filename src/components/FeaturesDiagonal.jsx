@@ -35,12 +35,10 @@ export const FeaturesDiagonal = () => {
               Accelerate Your Success
             </span>
             <h2 className="mt-10 mb-8 text-4xl lg:text-5xl custom-block-big-title">
-              Build &amp; Launch without problems
+              Ready to take your business to the next level?
             </h2>
             <p className="mb-16 text-customGrayText leading-loose">
-              Our platform enables you to launch your data-driven projects with
-              ease. Boost productivity and achieve better results. Empower your
-              decision-making with advanced analytics
+              Contact us today for a free consultation and discover how we can help you achieve it!
             </p>
             <div
               className="w-[210px] h-12 custom-button-colored mr-10 "
