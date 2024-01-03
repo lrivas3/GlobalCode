@@ -29,7 +29,10 @@ export const Navbar = () => {
                 <TailcastLogo />
               </div>
               <div className="text-white font-['Inter'] font-bold text-xl">
-                Tailcast
+                Global
+              </div>
+              <div className="text-white font-['Inter'] text-xl">
+                Code
               </div>
             </div>
           </a>
